@@ -124,7 +124,7 @@ The `UniTrust DID` system provides three main operations for DID creation:
 | ------------------ | -------------------- | -------- | ------------------------------ | ------------------------------------------------------- |
 | `certContent`      | `string`             | Yes      | `Max length: 65535`            | The real-name digital certificate.                      |
 | `name`             | `string`             | Yes      | `Max length:255`               | The subject name of the real-name digital certificate.. |
-| `serviceInfos`     | `array[serviceInfo]` | No       | `Min length: 0, Max lenth: 10` | External services for the real-name subject..           |
+| `serviceInfos`     | `array[serviceInfo]` | No       | `Min length: 0, Max lenth: 10` | External services for the real-name subject.            |
 
 Breakdown of `serviceInfo` Structure:
 
@@ -152,7 +152,7 @@ Related DID documents can be accessed and parsed via the `Unitrust DID` identifi
 
 | **Parameter** Name | **Type** | Required | **Constraints**   | **Description**                |
 | ------------------ | -------- | -------- | ----------------- | ------------------------------ |
-| `did`              | `string` | Yes      | `Max length: 255` | The `Unitrust DID` Identifier. |
+| `did`              | `string` | Yes      | `Max length: 255` | The `Unitrust DID` identifier. |
 
 #### Response Parameters
 
